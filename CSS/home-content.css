@@ -1,0 +1,41 @@
+.main{
+    display: flex;
+    padding-top: 30px;
+    margin-top: 80px;
+    background-color: #ff5733;
+    border-radius: 10px;
+}
+
+.main .left-side{
+    width: 100%;
+}
+.main .left-side img{
+    margin: auto;
+    display: block; /* centerise the gif with margin auto and display block*/
+}
+.main .right-side{
+    padding: 20px;
+}
+.main .right-side h1{
+    text-shadow: 2px 2px 2px black;
+}
+.main .right-side p{
+    padding-top: 20px;
+}
+.main .right-side a{
+    color: blue;
+    font-size: small;
+    cursor: pointer;
+}
+.main .right-side a:hover{
+    color: orange;
+    transition: 0.5s;
+    text-decoration: none;
+}
+.main .right-side button{
+    margin-top: 20px;
+    background-color: orangered;
+}
+.main .right-side h1, .main .right-side p {
+    color: whitesmoke;
+}
